@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>EPHTEE | Custom Order</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="container header-content">
+
+            <a href="index.html" class="logo">
+                EPHTEE
+            </a>
+
+
+            <nav class="nav">
+
+                <a href="index.html">Home</a>
+
+                <a href="index.html#shop">Shop</a>
+
+                <a href="index.html#categories">
+                    Categories
+                </a>
+
+                <a href="custom-order.html">
+                    Custom Orders
+                </a>
+
+            </nav>
+
+
+            <a href="cart.html" class="cart-button">
+
+                🛒 Cart
+
+                <span class="cart-count">
+                    0
+                </span>
+
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- CUSTOM ORDER -->
+    <main>
+
+        <section class="custom-order-page section">
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        NEED SOMETHING SPECIAL?
+                    </p>
+
+                    <h1>
+                        Tell Us What You Need
+                    </h1>
+
+                    <p>
+                        Whether it's a custom cake, event package,
+                        bulk order or special request, tell us
+                        what you have in mind.
+                    </p>
+
+                </div>
+
+
+
+                <div class="custom-order-layout">
+
+
+                    <!-- FORM -->
+
+                    <div class="custom-order-form-container">
+
+                        <h2>
+                            Custom Order Request
+                        </h2>
+
+
+                        <form id="custom-order-form">
+
+
+                            <div class="form-group">
+
+                                <label for="custom-name">
+                                    Full Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="custom-name"
+                                    name="name"
+                                    placeholder="Enter your full name"
+                                    required>
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="custom-phone">
+                                    Phone Number
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    id="custom-phone"
+                                    name="phone"
+                                    placeholder="e.g. 08012345678"
+                                    required>
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="custom-email">
+                                    Email Address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="custom-email"
+                                    name="email"
+                                    placeholder="Enter your email address"
+                                    required>
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="order-type">
+                                    What would you like to order?
+                                </label>
+
+                                <select
+                                    id="order-type"
+                                    name="orderType"
+                                    required>
+
+                                    <option value="">
+                                        Select an option
+                                    </option>
+
+                                    <option value="Custom Cake">
+                                        Custom Cake
+                                    </option>
+
+                                    <option value="Snacks">
+                                        Snacks & Pastries
+                                    </option>
+
+                                    <option value="Small Chops">
+                                        Small Chops
+                                    </option>
+
+                                    <option value="Meals">
+                                        Meals / Food Trays
+                                    </option>
+
+                                    <option value="Drinks">
+                                        Drinks
+                                    </option>
+
+                                    <option value="Fruit Packs">
+                                        Fruit Packs
+                                    </option>
+
+                                    <option value="Foodstuff">
+                                        Foodstuff / Provisions
+                                    </option>
+
+                                    <option value="Bulk Order">
+                                        Bulk Order
+                                    </option>
+
+                                    <option value="Event Package">
+                                        Event Package
+                                    </option>
+
+                                    <option value="Other">
+                                        Other
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="quantity">
+                                    Quantity
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="quantity"
+                                    name="quantity"
+                                    min="1"
+                                    placeholder="e.g. 30">
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="preferred-date">
+                                    Preferred Date
+                                </label>
+
+                                <input
+                                    type="date"
+                                    id="preferred-date"
+                                    name="preferredDate"
+                                    required>
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="custom-state">
+                                    Delivery State
+                                </label>
+
+                                <select
+                                    id="custom-state"
+                                    name="state"
+                                    required>
+
+                                    <option value="">
+                                        Select your state
+                                    </option>
+
+                                    <option value="Lagos">
+                                        Lagos
+                                    </option>
+
+                                    <option value="Ogun">
+                                        Ogun
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="custom-address">
+                                    Delivery Address
+                                </label>
+
+                                <textarea
+                                    id="custom-address"
+                                    name="address"
+                                    rows="4"
+                                    placeholder="Enter your delivery address"
+                                    required></textarea>
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="budget">
+                                    Estimated Budget
+                                    <span>(Optional)</span>
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="budget"
+                                    name="budget"
+                                    placeholder="e.g. ₦50,000">
+
+                            </div>
+
+
+
+                            <div class="form-group">
+
+                                <label for="description">
+                                    Tell Us More
+                                </label>
+
+                                <textarea
+                                    id="description"
+                                    name="description"
+                                    rows="6"
+                                    placeholder="Describe what you want, including flavours, colours, theme, quantity, packaging, event details or any other requirements."
+                                    required></textarea>
+
+                            </div>
+
+
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary">
+
+                                Submit Custom Order Request
+
+                            </button>
+
+
+                        </form>
+
+                    </div>
+
+
+
+                    <!-- INFORMATION -->
+
+                    <aside class="custom-order-info">
+
+                        <h2>
+                            How It Works
+                        </h2>
+
+
+                        <div class="custom-step">
+
+                            <strong>
+                                1. Tell Us
+                            </strong>
+
+                            <p>
+                                Send us the details of what
+                                you'd like.
+                            </p>
+
+                        </div>
+
+
+                        <div class="custom-step">
+
+                            <strong>
+                                2. We Review
+                            </strong>
+
+                            <p>
+                                We'll review your request and
+                                determine what's needed.
+                            </p>
+
+                        </div>
+
+
+                        <div class="custom-step">
+
+                            <strong>
+                                3. Get Your Quote
+                            </strong>
+
+                            <p>
+                                We'll contact you with pricing
+                                and availability.
+                            </p>
+
+                        </div>
+
+
+                        <div class="custom-step">
+
+                            <strong>
+                                4. Confirm Your Order
+                            </strong>
+
+                            <p>
+                                Once everything is agreed,
+                                we'll confirm your order.
+                            </p>
+
+                        </div>
+
+
+                        <div class="custom-order-note">
+
+                            <strong>
+                                EPHTEE Promise
+                            </strong>
+
+                            <p>
+                                We aim to give you exactly
+                                what you ordered, at a fair
+                                and transparent price.
+                            </p>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    EPHTEE
+                </a>
+
+                <p>
+                    Quality You Can Taste.
+                    Value You Can Trust.
+                </p>
+
+                <p>
+                    Food • Treats • Essentials
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Shop</h3>
+
+                <a href="index.html#categories">
+                    Categories
+                </a>
+
+                <a href="index.html#shop">
+                    Popular Products
+                </a>
+
+                <a href="custom-order.html">
+                    Custom Orders
+                </a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Help</h3>
+
+                <a href="#">
+                    Delivery Information
+                </a>
+
+                <a href="#">
+                    FAQs
+                </a>
+
+                <a href="#">
+                    Contact Us
+                </a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Connect</h3>
+
+                <a href="#">
+                    WhatsApp
+                </a>
+
+                <a href="#">
+                    Instagram
+                </a>
+
+                <a href="#">
+                    Facebook
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 EPHTEE. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
