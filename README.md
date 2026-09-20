@@ -1,25 +1,16 @@
-# EPHTEE STORE
-# Quality You Can Taste. Value You Can Trust.
+# EPHTEE Store
 
-# ============================================================
-# PROJECT OVERVIEW
-# ============================================================
+**Quality You Can Taste. Value You Can Trust.**
 
-EPHTEE is a cloud-ready e-commerce platform designed for
-ordering cakes, snacks, small chops, meals, drinks, fruit packs,
-foodstuff, and provisions across Lagos and Ogun.
+EPHTEE is a cloud-ready e-commerce platform designed for ordering cakes, snacks, small chops, meals, drinks, fruit packs, foodstuff, and provisions across Lagos and Ogun.
 
-The project is being developed as both a real-world business
-platform and a portfolio project demonstrating AWS Cloud,
-Data Engineering, backend integration, and scalable solution design.
+The project is being developed as both a real-world business platform and a portfolio project demonstrating **AWS Cloud, Data Engineering, backend integration, and scalable solution design**.
 
-# ============================================================
-# BUSINESS PROBLEM
-# ============================================================
+---
 
-EPHTEE is designed to address common challenges customers and
-food vendors face when ordering food products and custom orders
-online.
+## 🚀 Project Overview
+
+EPHTEE is designed to address common challenges customers and food vendors face when ordering food products and custom orders online.
 
 The platform aims to provide:
 
@@ -31,12 +22,11 @@ The platform aims to provide:
 - Quality-focused order fulfillment
 - Data-driven business insights
 
-The long-term goal is to build EPHTEE into a scalable,
-cloud-backed e-commerce solution.
+The long-term goal is to build EPHTEE into a scalable, cloud-backed e-commerce solution.
 
-# ============================================================
-# CURRENT FEATURES
-# ============================================================
+---
+
+## ✨ Current Features
 
 The current frontend includes:
 
@@ -51,7 +41,7 @@ The current frontend includes:
 - Responsive mobile layout
 - Navigation between major pages
 
-## Product Categories
+### Product Categories
 
 - Cakes & Desserts
 - Snacks & Pastries
@@ -62,11 +52,11 @@ The current frontend includes:
 - Foodstuff
 - Provisions
 
-# ============================================================
-# TECHNOLOGY STACK
-# ============================================================
+---
 
-## Current
+## 🛠️ Technology Stack
+
+### Current
 
 - HTML5
 - CSS3
@@ -74,7 +64,7 @@ The current frontend includes:
 - Git
 - GitHub
 
-## Planned Cloud Infrastructure
+### Planned Cloud Infrastructure
 
 - Amazon S3
 - Amazon CloudFront
@@ -85,57 +75,63 @@ The current frontend includes:
 - AWS Glue
 - Amazon Athena
 
-# ============================================================
-# PLANNED AWS ARCHITECTURE
-# ============================================================
+---
+
+## ☁️ Planned AWS Architecture
 
 The planned cloud architecture follows a serverless approach.
 
-Customer
-    |
-    v
-CloudFront
-    |
-    v
-Amazon S3
-    |
-    v
-API Gateway
-    |
-    v
-AWS Lambda
-    |
-    v
-DynamoDB
-    |
-    +--------------------> SNS Notifications
-    |
-    v
-Order Data
-    |
-    v
-Amazon S3
-    |
-    v
-AWS Glue
-    |
-    v
-Amazon Athena
-    |
-    v
-Business Intelligence / KPI Dashboard
+**Customer**
 
-The architecture is designed to separate the customer-facing
-application from backend processing and analytics.
+↓  
 
-# ============================================================
-# DATA ENGINEERING PLAN
-# ============================================================
+**Amazon CloudFront**
+
+↓
+
+**Amazon S3 — Frontend Hosting**
+
+↓
+
+**Amazon API Gateway**
+
+↓
+
+**AWS Lambda**
+
+↓
+
+**Amazon DynamoDB — Orders**
+
+↓
+
+**Amazon SNS — Notifications**
+
+↓
+
+**Amazon S3 — Order Data**
+
+↓
+
+**AWS Glue — Data Transformation**
+
+↓
+
+**Amazon Athena — Data Analysis**
+
+↓
+
+**Business Intelligence / KPI Dashboard**
+
+The architecture is designed to separate the customer-facing application from backend processing and analytics.
+
+---
+
+## 📊 Data Engineering Plan
 
 EPHTEE is also being developed with data engineering in mind.
 
-Order data can eventually be collected and transformed into
-structured datasets for:
+Order data can eventually be collected and transformed into structured datasets for:
 
 - Sales analysis
 - Product performance
@@ -145,14 +141,13 @@ structured datasets for:
 - Delivery analysis
 - Business performance monitoring
 
-The planned analytics layer will use AWS services such as
-S3, Glue, and Athena.
+The planned analytics layer will use AWS services such as **S3, Glue, and Athena**.
 
-# ============================================================
-# PROJECT ROADMAP
-# ============================================================
+---
 
-## Phase 1 - Frontend Foundation
+## 🧩 Project Roadmap
+
+### Phase 1 — Frontend Foundation
 
 - [x] Homepage
 - [x] Shop page
@@ -163,7 +158,7 @@ S3, Glue, and Athena.
 - [x] Responsive styling
 - [x] GitHub repository
 
-## Phase 2 - Cloud Integration
+### Phase 2 — Cloud Integration
 
 - [ ] Host frontend on Amazon S3
 - [ ] Configure CloudFront
@@ -172,7 +167,7 @@ S3, Glue, and Athena.
 - [ ] Connect DynamoDB
 - [ ] Configure order notifications
 
-## Phase 3 - Data Engineering
+### Phase 3 — Data Engineering
 
 - [ ] Store order data in S3
 - [ ] Build data transformation workflow
@@ -180,7 +175,7 @@ S3, Glue, and Athena.
 - [ ] Query data with Athena
 - [ ] Build sales and business KPI dashboard
 
-## Phase 4 - Business Features
+### Phase 4 — Business Features
 
 - [ ] Real product catalogue
 - [ ] Product images
@@ -190,36 +185,32 @@ S3, Glue, and Athena.
 - [ ] Admin/order management
 - [ ] Customer notifications
 
-# ============================================================
-# BUSINESS VISION
-# ============================================================
+---
 
-EPHTEE aims to combine the convenience of an online marketplace
-with the warmth and quality associated with homemade food businesses.
+## 🎯 Business Vision
+
+EPHTEE aims to combine the convenience of an online marketplace with the warmth and quality associated with homemade food businesses.
 
 The platform is designed around a simple promise:
 
-"Quality You Can Taste. Value You Can Trust."
+> **Quality You Can Taste. Value You Can Trust.**
 
-# ============================================================
-# PROJECT AUTHOR
-# ============================================================
+---
 
-Faith Ogundusi
+## 👩🏽‍💻 Project Author
+
+**Faith Ogundusi**
 
 Cloud & Data Engineering Portfolio Project
 
-GitHub:
-faith-ogundusi
+GitHub: `faith-ogundusi`
 
-# ============================================================
-# PROJECT STATUS
-# ============================================================
+---
 
-Status: Active Development
+## 📌 Project Status
 
-The current version represents the frontend foundation of the
-EPHTEE platform.
+**Status:** Active Development
 
-Cloud infrastructure, backend services, data pipelines, and
-analytics capabilities will be implemented progressively.
+The current version represents the frontend foundation of the EPHTEE platform.
+
+Cloud infrastructure, backend services, data pipelines, and analytics capabilities will be implemented progressively.
